@@ -174,53 +174,39 @@ h3{
   /* Mobile Device */
 
 
-  @media only screen and (max-width:688px) {
+  @media only screen and (max-width:731px) {
 
-/*    
-    header > nav{
-       width: 100%;
-       flex-direction: column;
-       align-items: flex-end;
-
-
-    }
-
-    .navigation-banner img{
-
-        width: 329px;
-        height: 259.17px;
-        padding-right: 10%;
-       
-     
-
-
-    }
-    .navigation-text{
-
-        padding-right: 35%;
-        font-size: 26px;
-    } */
-
-
+   
     header{
         display: none;
     }
-
-
+  
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
   
     .container{
            width: 100%;
            display: grid;
            grid-template-columns: repeat(1,1fr);
            flex-direction: column;
+           
+           grid-row-gap: 18px;
+    
+          
     }
 
     .players{
         grid-template-columns: repeat(1,1fr);
+        
+       
+    
     }
-    .player, .paragraph-text{
+    .player{
 
         flex-direction: column;
+       
     
     }
 
